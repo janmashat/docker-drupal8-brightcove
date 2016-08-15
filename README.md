@@ -1,11 +1,12 @@
 docker-drupal8-brightcove
 ==============
 
-Docker image for Drupal 8 with latest Brightcove module (8.x-1.x).
+This is a recipe for building a [Docker](https://www.docker.com/) container with Drupal 8 and the latest Brightcove module (8.x-1.x), including Linux (Debian 8), Apache and MySQL.
+Before building, make sure you have [Docker Engine](https://docs.docker.com/engine/installation/) installed.
 
 Based on: https://github.com/ricardoamaro/docker-drupal
 
-Note: the Drupal site must be accessible from the internet in order for uploading to work (Brightcove pulls uploaded videos/images/captions)
+Note: in order for uploading to work, the Drupal site must be accessible from the internet - because uploaded videos/images/captions are first stored on your Drupal site before being retrieved by Brightcove.
 
 ### How to use:
 
